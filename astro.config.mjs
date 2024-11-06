@@ -1,8 +1,5 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 
-export default defineConfig({
-  output: 'static',
-  site: 'https://github.com/WebLadyfr/Portfolio', 
-});
-
+// https://astro.build/config
+export default defineConfig({});
