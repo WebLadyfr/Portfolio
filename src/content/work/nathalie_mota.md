@@ -1,7 +1,7 @@
 ---
 title: Nathalie Mota
 publishDate: 2024-11-04 00:00:00
-img: /assets/nathalie_mota.png
+img: assets/nathalie_mota.png
 img_alt: The project Nathalie Mota on several devices to prove the full potential of a responsive design.
 description: |
   For this project, I developed a responsive and visually captivating website for Nathalie Mota, a freelance photographer, focusing on showcasing her work through an intuitive and interactive user experience.

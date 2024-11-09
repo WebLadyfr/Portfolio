@@ -1,7 +1,7 @@
 ---
 title: Koukaki
 publishDate: 2024-11-04 00:00:00
-img: /assets/koukaki.png
+img: assets/koukaki.png
 img_alt: The project Koukaki on several devices to prove the full potential of a responsive design.
 description: |
   This project required precise attention to detail, a blend of CSS and JavaScript for animation handling, and a focus on smooth user interaction without compromising performance.
