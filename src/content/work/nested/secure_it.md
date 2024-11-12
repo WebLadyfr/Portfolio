@@ -1,7 +1,7 @@
 ---
 title: Secure IT
 publishDate: 2024-11-04 00:00:00
-img: assets/secure_it.png
+img: /assets/secure_it.png
 img_alt: The project Secure IT on several devices to prove the full potential of a responsive design.
 description: |
   For the Secure It project, I was responsible for creating a secure, reliable, and SEO-optimized website for a security and surveillance company.

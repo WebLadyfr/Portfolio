@@ -1,7 +1,7 @@
 ---
 title: Planty
 publishDate: 2024-11-04 00:00:00
-img: assets/planty_.png
+img: /assets/planty_.png
 img_alt: The project Planty on several devices to prove the full potential of a responsive design.
 description: | 
   This project required a focus on precise design adherence, responsive functionality, and user-centric forms, using HTML, CSS, and PHP. 
