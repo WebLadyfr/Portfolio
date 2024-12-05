@@ -4,7 +4,7 @@ publishDate: 2024-11-04 00:00:00
 img: /Portfolio/assets/MedIt.png
 img_alt: The project MedIt
 description: |
-  For this project, I resolved a lot of bugs to make the website fully operational
+  For this project, I resolved critical issues for a medical IT solutions website, including debugging, plugin conflicts, and code errors, to restore functionality and improve user experience.
 tags:
   - Debug
   - Dev

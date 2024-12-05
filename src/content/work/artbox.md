@@ -4,7 +4,7 @@ publishDate: 2024-11-04 00:00:00
 img: /Portfolio/assets/artbox.png
 img_alt: The project ArtBox on several devices 
 description: |
-  For this project, I resolved a lot of bugs to make the website fully operational
+  A streamlined website for showcasing artwork, featuring centralized data management and dynamic generation of pages for improved scalability and ease of updates.
 tags:
   - Dynamic
   - Optimization
