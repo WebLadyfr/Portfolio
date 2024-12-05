@@ -5,6 +5,8 @@ import type { iconPaths } from './IconPaths';
 
 /** Main menu items */
 const basePath = import.meta.env.MODE === 'production' ? '/Portfolio' : '';
+console.log('basePath:', basePath);
+console.log('Astro.url.pathname:', Astro.url.pathname);
 
 const textLinks = [
   { label: 'Home', href: `${basePath}/` },
@@ -12,6 +14,7 @@ const textLinks = [
   { label: 'About', href: `${basePath}/about/` },
 ];
 
+const currentPath = Astro.url.pathname;
 
 /** Icon links to social media — edit these with links to your profiles! */
 const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[] = [
@@ -39,25 +42,29 @@ const iconLinks: { label: string; href: string; icon: keyof typeof iconPaths }[]
 	<noscript>
 		<ul class="nav-items">
 			{
-				textLinks.map(({ label, href }) => (
-					<li>
-						<a
-							aria-current={Astro.url.pathname === href}
-							class:list={[
-								'link',
-								{
-									active:
-										Astro.url.pathname === href ||
-										(href !== '/' && Astro.url.pathname.startsWith(href)),
-								},
-							]}
-							href={href}
-						>
-							{label}
-						</a>
+					textLinks.map(({ label, href }) => {
+                       const isHomePageActive = label === 'Home' && Astro.url.pathname === `${basePath}/`;
+                       const isOtherPageActive = label !== 'Home' && Astro.url.pathname === href;
+
+                       return (
+                        <li>
+                         <a
+                           aria-current={isOtherPageActive ? 'page' : undefined}
+                           class:list={[
+                             'link',
+                             {
+                                active: isHomePageActive || isOtherPageActive,
+                             },
+                          ]}
+                      href={href}
+					  >
+						{label}
+					  </a>
 					</li>
-				))
-			}
+				  );
+				})
+			  }
+			  
 		</ul>
 	</noscript>
 	<noscript>
