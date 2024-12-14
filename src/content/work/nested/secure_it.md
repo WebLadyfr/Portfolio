@@ -1,6 +1,6 @@
 ---
 title: Secure IT
-publishDate: 2024-11-04 00:00:00
+publishDate: 2024-11-06 00:00:00
 img: /Portfolio/assets/secure_it.png
 img_alt: The project Secure IT on several devices to prove the full potential of a responsive design.
 description: |

@@ -1,6 +1,6 @@
 ---
 title: Nathalie Mota
-publishDate: 2024-11-04 00:00:00
+publishDate: 2024-11-05 00:00:00
 img: /Portfolio/assets/nathalie_mota.png
 img_alt: The project Nathalie Mota on several devices to prove the full potential of a responsive design.
 description: |
